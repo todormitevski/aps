@@ -1,3 +1,5 @@
+package OnlineCourse;
+
 import java.util.Stack;
 
 public class WorkingWithStacks { //last in first out (LIFO)

@@ -1,3 +1,5 @@
+package OnlineCourse;
+
 import java.util.Arrays;
 
 public class TheArrays{

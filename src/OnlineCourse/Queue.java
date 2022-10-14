@@ -1,4 +1,5 @@
-import java.util.LinkedList;
+package OnlineCourse;
+
 import java.util.NoSuchElementException;
 
 public class Queue { //(FIFO)
@@ -43,7 +44,7 @@ public class Queue { //(FIFO)
 
     public int dequeue(){
         if(isEmpty()){
-            throw new NoSuchElementException("Queue is empty!");
+            throw new NoSuchElementException("OnlineCourse.Queue is empty!");
         }
         int result=front.data;
         front=front.next;
@@ -68,14 +69,14 @@ public class Queue { //(FIFO)
 
     public int first(){
         if(isEmpty()){
-            throw new NoSuchElementException("Queue is empty!");
+            throw new NoSuchElementException("OnlineCourse.Queue is empty!");
         }
         return front.data;
     }
 
     public int last(){
         if(isEmpty()){
-            throw new NoSuchElementException("Queue is empty!");
+            throw new NoSuchElementException("OnlineCourse.Queue is empty!");
         }
         return rear.data;
     }
