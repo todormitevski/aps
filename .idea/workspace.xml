@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="aud0 update">
-      <change afterPath="$PROJECT_DIR$/src/aud0/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aud0/IO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aud0/Sarma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aud0/TV.java" afterDir="false" />
+    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="aud0 update1">
+      <change afterPath="$PROJECT_DIR$/src/labs/lab1/Initials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab1/PushZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab1/Rabotnik/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab1/Rabotnik/RabotnaNedela.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab1/Rabotnik/Rabotnik.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,20 +33,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +60,9 @@
       <workItem from="1663938385943" duration="11054000" />
       <workItem from="1664046117366" duration="1735000" />
       <workItem from="1665767637913" duration="3272000" />
-      <workItem from="1665832372899" duration="2941000" />
+      <workItem from="1665832372899" duration="3585000" />
+      <workItem from="1666091169767" duration="28000" />
+      <workItem from="1666441468926" duration="12863000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1663439422358</created>
@@ -82,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665770904800</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="aud0 update1">
+      <created>1665835354996</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665835354996</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +113,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="add queues, lists, stacks, 2darrays" />
     <MESSAGE value="aud0 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="aud0 update" />
+    <MESSAGE value="aud0 update1" />
+    <option name="LAST_COMMIT_MESSAGE" value="aud0 update1" />
   </component>
 </project>
