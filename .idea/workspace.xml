@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="aud0 update1">
-      <change afterPath="$PROJECT_DIR$/src/labs/lab1/Initials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/lab1/PushZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/lab1/Rabotnik/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/lab1/Rabotnik/RabotnaNedela.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/lab1/Rabotnik/Rabotnik.java" afterDir="false" />
+    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="lab1 commit">
+      <change afterPath="$PROJECT_DIR$/src/vezbi/SLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/SLLNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/labs/lab1/Rabotnik/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab1/Rabotnik/MainH.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +45,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="SLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vezbi.SLL" />
+      <module name="aps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vezbi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SLL" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,7 +80,8 @@
       <workItem from="1665767637913" duration="3272000" />
       <workItem from="1665832372899" duration="3585000" />
       <workItem from="1666091169767" duration="28000" />
-      <workItem from="1666441468926" duration="12863000" />
+      <workItem from="1666441468926" duration="12901000" />
+      <workItem from="1666529949033" duration="4647000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1663439422358</created>
@@ -92,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665835354996</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lab1 commit">
+      <created>1666454755076</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666454755076</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +140,7 @@
     <MESSAGE value="add queues, lists, stacks, 2darrays" />
     <MESSAGE value="aud0 update" />
     <MESSAGE value="aud0 update1" />
-    <option name="LAST_COMMIT_MESSAGE" value="aud0 update1" />
+    <MESSAGE value="lab1 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab1 commit" />
   </component>
 </project>
