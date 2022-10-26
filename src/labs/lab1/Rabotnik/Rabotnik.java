@@ -32,6 +32,16 @@ public class Rabotnik{
         this.nedeli = nedeli;
     }
 
+    //implementations
+
+    public int vkupnoCasovi(){ //(not vkupno,)
+        int sum=0;
+        for (int i=0;i< nedeli.length;i++){
+            sum+=nedeli[i].getCasovi();
+        }
+        return sum;
+    }
+
     @Override
     public String toString() {
 

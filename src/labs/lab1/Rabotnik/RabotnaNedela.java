@@ -19,7 +19,7 @@ public class RabotnaNedela{
         return sum;
     }
 
-    public void setCasovi(int[] casovi) {
+    public void setCasovi() {
         this.casovi = casovi;
     }
 

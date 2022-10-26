@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="lab1 commit">
-      <change afterPath="$PROJECT_DIR$/src/vezbi/SLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/SLLNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab1/Rabotnik/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/lab1/Rabotnik/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab1/Rabotnik/MainH.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/labs/lab1/Rabotnik/MainH.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/labs/lab1/Rabotnik/RabotnaNedela.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab1/Rabotnik/RabotnaNedela.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/labs/lab1/Rabotnik/Rabotnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab1/Rabotnik/Rabotnik.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +84,11 @@
       <workItem from="1666091169767" duration="28000" />
       <workItem from="1666441468926" duration="12901000" />
       <workItem from="1666529949033" duration="4647000" />
+      <workItem from="1666731136043" duration="11000" />
+      <workItem from="1666731151168" duration="9000" />
+      <workItem from="1666776363436" duration="2242000" />
+      <workItem from="1666780693844" duration="66000" />
+      <workItem from="1666789491839" duration="244000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1663439422358</created>
