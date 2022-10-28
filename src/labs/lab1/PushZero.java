@@ -1,6 +1,5 @@
 package labs.lab1;
 
-import java.io.*;
 import java.util.Scanner;
 
 //За дадена низа од случајни броеви кои се внесуваат од

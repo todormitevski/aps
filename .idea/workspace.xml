@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="add SLL vezbi">
+    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="lab1 update">
+      <change afterPath="$PROJECT_DIR$/src/labs/lab2/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab2/ArrayMeanValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/labs/lab1/PushZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab1/PushZero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +45,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="labs" />
+      <recent name="aud0" />
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="SLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="vezbi.SLL" />
@@ -78,10 +88,13 @@
       <workItem from="1665832372899" duration="3585000" />
       <workItem from="1666091169767" duration="28000" />
       <workItem from="1666441468926" duration="12901000" />
-      <workItem from="1666529949033" duration="4885000" />
-      <workItem from="1666539080649" duration="498000" />
-      <workItem from="1666552390613" duration="2073000" />
-      <workItem from="1666986848197" duration="876000" />
+      <workItem from="1666529949033" duration="4647000" />
+      <workItem from="1666731136043" duration="11000" />
+      <workItem from="1666731151168" duration="9000" />
+      <workItem from="1666776363436" duration="2242000" />
+      <workItem from="1666780693844" duration="66000" />
+      <workItem from="1666789491839" duration="269000" />
+      <workItem from="1666806655527" duration="3552000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1663439422358</created>
@@ -118,12 +131,12 @@
       <option name="project" value="LOCAL" />
       <updated>1666454755076</updated>
     </task>
-    <task id="LOCAL-00006" summary="add SLL vezbi">
-      <created>1666535541406</created>
+    <task id="LOCAL-00006" summary="lab1 update">
+      <created>1666789756303</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1666535541406</updated>
+      <updated>1666789756303</updated>
     </task>
     <option name="localTasksCounter" value="7" />
     <servers />
@@ -148,7 +161,7 @@
     <MESSAGE value="aud0 update" />
     <MESSAGE value="aud0 update1" />
     <MESSAGE value="lab1 commit" />
-    <MESSAGE value="add SLL vezbi" />
-    <option name="LAST_COMMIT_MESSAGE" value="add SLL vezbi" />
+    <MESSAGE value="lab1 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab1 update" />
   </component>
 </project>
