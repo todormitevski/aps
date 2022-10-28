@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="lab1 update">
-      <change afterPath="$PROJECT_DIR$/src/labs/lab2/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/lab2/ArrayMeanValue.java" afterDir="false" />
+    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="commit workspace.xml">
+      <change afterPath="$PROJECT_DIR$/src/labs/lab2/Knots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/lab1/PushZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab1/PushZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/labs/lab2/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab2/ClosestToAverage/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/labs/lab2/ArrayMeanValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab2/ClosestToAverage/ArrayMeanValue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +96,7 @@
       <workItem from="1666780693844" duration="66000" />
       <workItem from="1666789491839" duration="269000" />
       <workItem from="1666806655527" duration="3552000" />
+      <workItem from="1666989050191" duration="4463000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1663439422358</created>

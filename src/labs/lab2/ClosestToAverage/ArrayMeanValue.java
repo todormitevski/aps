@@ -1,4 +1,4 @@
-package labs.lab2;
+package labs.lab2.ClosestToAverage;
 
 import java.util.Scanner;
 
@@ -8,33 +8,34 @@ public class ArrayMeanValue {
 
     //todo: implement function
     public static int brojDoProsek(Array<Integer> arr) {
+        int min=0, minIndex=0;
         for(int i=0;i<arr.getSize();i++){
-            double tmp=0;
-            tmp=arr.get(i);
-            if(tmp==prosekArr(arr)){
-                return arr.get(i);
-            }
-
-            double razlika=0, minRazlika=0;
-            razlika= abs(prosekArr(arr)-arr.get(i));
-            if(razlika<minRazlika){
-                minRazlika=razlika;
-            }
-
-            int[] tmpArr=new int[arr.getSize()];
-            if(){
-                tmpArr[i]+=arr.get(i);
-            }
+            if(arr.get(i) == arrayAvg(arr))
+                minIndex=i;
+            else minIndex=closestFromTwo(arr);
         }
+        return arr.get(minIndex);
     }
 
-    private static double prosekArr(Array<Integer> arr) {
+    private static double arrayAvg(Array<Integer> arr) {
         double prosek=0;
         for(int i = 0; i< arr.getSize(); i++){
             prosek+= arr.get(i);
         }
         prosek/= arr.getSize();
         return prosek;
+    }
+
+    private static int closestFromTwo(Array<Integer> arr){
+        int closestIndex=0;
+        for (int i=0;i<arr.getSize();i++) {
+            if(abs(arr.get(i)-arrayAvg(arr)) == abs(arr.get(i+1)-arrayAvg(arr))){
+                if(arr.get(i)<arr.get(i+1)){
+                    closestIndex=i;
+                } else closestIndex=i+1;
+            }
+        }
+        return closestIndex;
     }
 
     public static void main(String[] args) {

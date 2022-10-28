@@ -1,4 +1,4 @@
-package labs.lab2;
+package labs.lab2.ClosestToAverage;
 
 @SuppressWarnings("unchecked")
 class Array<E> {
