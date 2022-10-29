@@ -71,6 +71,30 @@ public class SLL {
         return num;
     }
 
+    public void deleteNode(Object o){
+        SLLNode tmp=first;
+        while(tmp.succ!=null){
+            if(tmp.succ.equals(o)){
+                tmp.succ=tmp.succ.succ;
+            }
+            tmp=tmp.succ;
+        }
+    }
+
+    public void mirrorList(SLL list){
+        SLLNode current=first;
+        SLLNode tmp=null; //pomoshen
+        SLLNode next;
+
+        while(current!=null){
+            next=current.succ; //current:1, next:2
+            current.succ=tmp;
+            tmp=current;
+            current=next;
+        }
+        first=tmp;
+    }
+
     public static void main(String[] args) {
         SLL leagueChamps=new SLL();
 //        SLLNode vtoro=new SLLNode("Katarina", new SLLNode("Pyke", null));
@@ -92,5 +116,28 @@ public class SLL {
         System.out.println("TESTING INSERT LAST");
         leagueChamps.insertLast("Risot");
         leagueChamps.printNodes();
+        System.out.println();
+
+        System.out.println("LIST BEFORE ASIM DELETION");
+        leagueChamps.printNodes();
+        System.out.println("LIST AFTER ASIM DELETION");
+        leagueChamps.deleteNode(ins);
+        leagueChamps.printNodes();
+        System.out.println();
+
+        System.out.println("-----TESTING MIRROR-----");
+        SLL numList=new SLL();
+        numList.insertLast(1);
+        numList.insertLast(2);
+        numList.insertLast(3);
+        numList.insertLast(4);
+        numList.insertLast(5);
+        numList.insertLast(6);
+
+        System.out.println("LIST BEFORE MIRROR");
+        numList.printNodes();
+        System.out.println("LIST AFTER MIRROR");
+        numList.mirrorList(numList);
+        numList.printNodes();
     }
 }
