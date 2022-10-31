@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="lab1.3 update">
-      <change afterPath="$PROJECT_DIR$/src/vezbi/DLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/DLLNode.java" afterDir="false" />
+    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="vezbi update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/labs/lab2/SpecialSLLJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab2/SpecialSLLJoin.java" afterDir="false" />
     </list>
@@ -51,13 +49,16 @@
       <recent name="E:\IntelliJ IDEA 2022.2.2\INTELLIJ PROGRAMS\aps\src\vezbi\labReRun" />
       <recent name="E:\IntelliJ IDEA 2022.2.2\INTELLIJ PROGRAMS\aps\src\labs\lab1" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IntelliJ IDEA 2022.2.2\INTELLIJ PROGRAMS\aps\src\vezbi\labReRun" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="labs" />
       <recent name="aud0" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DLL">
+  <component name="RunManager">
     <configuration name="DLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="vezbi.DLL" />
       <module name="aps" />
@@ -118,7 +119,9 @@
       <workItem from="1667043082746" duration="9293000" />
       <workItem from="1667083967956" duration="4148000" />
       <workItem from="1667129998149" duration="2982000" />
-      <workItem from="1667135896394" duration="6229000" />
+      <workItem from="1667135896394" duration="6377000" />
+      <workItem from="1667155901856" duration="2409000" />
+      <workItem from="1667229198514" duration="6031000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1663439422358</created>
@@ -190,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667132724499</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="vezbi update">
+      <created>1667144966675</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667144966675</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +226,7 @@
     <MESSAGE value="lab1 update" />
     <MESSAGE value="lab2 update" />
     <MESSAGE value="lab1.3 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab1.3 update" />
+    <MESSAGE value="vezbi update" />
+    <option name="LAST_COMMIT_MESSAGE" value="vezbi update" />
   </component>
 </project>

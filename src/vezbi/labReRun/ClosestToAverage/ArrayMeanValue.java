@@ -1,4 +1,4 @@
-package labs.lab2.ClosestToAverage;
+package vezbi.labReRun.ClosestToAverage;
 
 import java.util.Scanner;
 
