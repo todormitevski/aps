@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="lab2 update">
-      <change afterPath="$PROJECT_DIR$/src/labs/lab2/ArrayMeanValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab3/DLLVojska.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +121,13 @@
       <workItem from="1667129998149" duration="2982000" />
       <workItem from="1667135896394" duration="6377000" />
       <workItem from="1667155901856" duration="2409000" />
-      <workItem from="1667229198514" duration="9851000" />
+      <workItem from="1667229198514" duration="10182000" />
+      <workItem from="1667247289242" duration="167000" />
+      <workItem from="1667250451538" duration="3594000" />
+      <workItem from="1667258238337" duration="202000" />
+      <workItem from="1667258461910" duration="544000" />
+      <workItem from="1667259323134" duration="4000" />
+      <workItem from="1667654525673" duration="4024000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1663439422358</created>
@@ -207,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667238235052</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="lab2 update">
+      <created>1667242259025</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667242259025</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
