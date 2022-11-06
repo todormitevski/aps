@@ -262,6 +262,47 @@ public class DLLVojska {
         return lista;
     }
 
+//    public static DLL<Integer> vojska(DLL<Integer> lista, int a, int b, int c, int d) {
+//
+//        //Vasiot kod tuka
+//        DLLNode<Integer> firstCrewPred = lista.find(a).pred;
+//        DLLNode<Integer> firstCrewSucc = lista.find(b).succ;
+//        DLLNode<Integer> secondCrewPred = lista.find(c).pred;
+//        DLLNode<Integer> secondCrewSucc = lista.find(d).succ;
+//
+//        DLL<Integer> firstCrew = new DLL<>();
+//        DLL<Integer> secondCrew = new DLL<>();
+//
+//        DLL<Integer> tmp = lista;
+//        DLLNode<Integer> tmpNode = lista.getFirst();
+//
+//        while(tmpNode != null){
+//            if(tmpNode.equals(a)){
+//                while(!tmpNode.equals(b)){
+//
+//                    firstCrew.insertLast(tmpNode.element);
+//
+//                    tmpNode = tmpNode.succ;
+//                }
+//                firstCrew.insertLast(tmpNode.element);
+//            }
+//
+//            if(tmpNode.equals(c)){
+//                while(!tmpNode.equals(d)){
+//
+//                    secondCrew.insertLast(tmpNode.element);
+//
+//                    tmpNode = tmpNode.succ;
+//                }
+//                secondCrew.insertLast(tmpNode.element);
+//            }
+//
+//            tmpNode = tmpNode.succ;
+//        }
+//
+//        return secondCrew;
+//    }
+
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
