@@ -202,106 +202,40 @@ class DLL<E> {
 public class DLLVojska {
 
     public static DLL<Integer> vojska(DLL<Integer> lista, int a, int b, int c, int d) {
-        //a - first interval of first part
-        //b - second interval of first part
-        //c - first interval of second part
-        //d - second interval of second part
-        //todo swap the two parts
 
         //Vasiot kod tuka
-        DLLNode<Integer> current = lista.getFirst();
-        DLL<Integer> firstPart = new DLL<>();
-        DLL<Integer> secondPart = new DLL<>();
+        //A and B are the intervals of the crews
+        DLLNode<Integer> firstCrewA = lista.find(a);
+        DLLNode<Integer> firstCrewB = lista.find(b);
+        DLLNode<Integer> secondCrewA = lista.find(c);
+        DLLNode<Integer> secondCrewB = lista.find(d);
 
-        while(current != null){
-
-            if(current.element.equals(a)){
-                do {
-                    firstPart.insertLast(current.element);
-
-                    lista.delete(current);
-
-                    current = current.succ;
-                } while(!current.element.equals(b));
-                firstPart.insertLast(current.element);
-                lista.delete(current);
-            }
-
-            if(current.element.equals(c)){
-                do {
-                    secondPart.insertLast(current.element);
-
-                    lista.delete(current);
-
-                    current = current.succ;
-                } while(!current.element.equals(d));
-                secondPart.insertLast(current.element);
-                lista.delete(current);
-            }
-
-            current = current.succ;
-        }
-
-        DLLNode<Integer> firstPartNode = firstPart.getFirst();
-        DLLNode<Integer> secondPartNode = secondPart.getFirst();
-
-        while(secondPartNode != null){
-
-            lista.insertLast(secondPartNode.element);
-
-            secondPartNode = secondPartNode.succ;
-        }
-
-        while(firstPartNode != null){
-
-            lista.insertLast(firstPartNode.element);
-
-            firstPartNode = firstPartNode.succ;
-        }
-
-        return lista;
-    }
-
-//    public static DLL<Integer> vojska(DLL<Integer> lista, int a, int b, int c, int d) {
-//
-//        //Vasiot kod tuka
 //        DLLNode<Integer> firstCrewPred = lista.find(a).pred;
 //        DLLNode<Integer> firstCrewSucc = lista.find(b).succ;
 //        DLLNode<Integer> secondCrewPred = lista.find(c).pred;
 //        DLLNode<Integer> secondCrewSucc = lista.find(d).succ;
-//
+
 //        DLL<Integer> firstCrew = new DLL<>();
 //        DLL<Integer> secondCrew = new DLL<>();
-//
-//        DLL<Integer> tmp = lista;
-//        DLLNode<Integer> tmpNode = lista.getFirst();
-//
-//        while(tmpNode != null){
-//            if(tmpNode.equals(a)){
-//                while(!tmpNode.equals(b)){
-//
-//                    firstCrew.insertLast(tmpNode.element);
-//
-//                    tmpNode = tmpNode.succ;
-//                }
-//                firstCrew.insertLast(tmpNode.element);
-//            }
-//
-//            if(tmpNode.equals(c)){
-//                while(!tmpNode.equals(d)){
-//
-//                    secondCrew.insertLast(tmpNode.element);
-//
-//                    tmpNode = tmpNode.succ;
-//                }
-//                secondCrew.insertLast(tmpNode.element);
-//            }
-//
-//            tmpNode = tmpNode.succ;
-//        }
-//
-//        return secondCrew;
-//    }
+
+        while(firstCrewA.element != firstCrewB.succ.element){
+            lista.insertAfter(firstCrewA.element, secondCrewA.pred);
+            lista.delete(firstCrewA);
+            firstCrewA = firstCrewA.succ;
+        }
+
+        while(secondCrewA != null){
+            lista.insertBefore(secondCrewA.element, firstCrewA);
+            lista.delete(secondCrewA);
+
+            if(secondCrewA.element == secondCrewB.element){
+                break;
+            }
+            secondCrewA = secondCrewA.succ;
+        }
+
+        return lista;
+    }
 
     public static void main(String[] args) {
 
