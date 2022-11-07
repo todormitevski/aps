@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="add lab3">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/lab3/GreedyCoins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/lab3/MinDistance.java" afterDir="false" />
+    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="lab3 update1">
+      <change afterPath="$PROJECT_DIR$/src/aud1/AudDLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aud1/AudDLLNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aud1/AudSLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aud1/AudSLLNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aud1/JoinSortedSLL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/lab3/DLLVojska.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab3/DLLVojska.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +60,9 @@
       <recent name="labs" />
       <recent name="aud0" />
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="aud1" />
     </key>
   </component>
   <component name="RunManager" selected="Application.DLL">
@@ -133,6 +137,8 @@
       <workItem from="1667654525673" duration="4262000" />
       <workItem from="1667739165727" duration="9220000" />
       <workItem from="1667755958335" duration="6177000" />
+      <workItem from="1667765616958" duration="188000" />
+      <workItem from="1667827894341" duration="5466000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1663439422358</created>
@@ -232,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667658844610</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="lab3 update1">
+      <created>1667765791597</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667765791597</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +273,7 @@
     <MESSAGE value="vezbi update" />
     <MESSAGE value="lab2 update" />
     <MESSAGE value="add lab3" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lab3" />
+    <MESSAGE value="lab3 update1" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab3 update1" />
   </component>
 </project>
