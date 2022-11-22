@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="add aud1">
+    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="DLLVojska fix">
+      <change afterPath="$PROJECT_DIR$/src/kolokviumski/ListaOdListi/ListaOdListi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kolokviumski/Palindrome/PalindromeDLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab4/ArithmeticExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab4/SumOfAbsoluteDifferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab4/ZigZagSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab5/CheckXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab5/MVR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab5/PostFixEvaluation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbiKolokv/Heroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbiKolokv/ListaOdListi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbiKolokv/PalindromeDLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbiKolokv/workers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/lab3/DLLVojska.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab3/DLLVojska.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +52,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -135,7 +146,18 @@
       <workItem from="1667755958335" duration="6177000" />
       <workItem from="1667765616958" duration="188000" />
       <workItem from="1667827894341" duration="5518000" />
-      <workItem from="1667836861719" duration="3133000" />
+      <workItem from="1667836861719" duration="3186000" />
+      <workItem from="1667848727535" duration="21000" />
+      <workItem from="1668359495871" duration="5631000" />
+      <workItem from="1668370431193" duration="48000" />
+      <workItem from="1668534175131" duration="2296000" />
+      <workItem from="1668541346686" duration="4446000" />
+      <workItem from="1668598131966" duration="2295000" />
+      <workItem from="1668979135226" duration="5232000" />
+      <workItem from="1669057977074" duration="598000" />
+      <workItem from="1669116831773" duration="698000" />
+      <workItem from="1669133715649" duration="5085000" />
+      <workItem from="1669141143487" duration="1801000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1663439422358</created>
@@ -249,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667833408256</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="DLLVojska fix">
+      <created>1667845680742</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667845680742</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +308,7 @@
     <MESSAGE value="add lab3" />
     <MESSAGE value="lab3 update1" />
     <MESSAGE value="add aud1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add aud1" />
+    <MESSAGE value="DLLVojska fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="DLLVojska fix" />
   </component>
 </project>
