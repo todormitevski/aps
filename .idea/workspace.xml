@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="DLLVojska fix">
-      <change afterPath="$PROJECT_DIR$/src/kolokviumski/ListaOdListi/ListaOdListi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kolokviumski/Palindrome/PalindromeDLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/lab4/ArithmeticExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/lab4/SumOfAbsoluteDifferences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/lab4/ZigZagSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/lab5/CheckXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/lab5/MVR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/lab5/PostFixEvaluation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbiKolokv/Heroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbiKolokv/ListaOdListi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbiKolokv/PalindromeDLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbiKolokv/workers.java" afterDir="false" />
+    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="add kolokviumski, lab5">
+      <change afterPath="$PROJECT_DIR$/src/vezbiKolokv/IOSolutions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vezbiKolokv/Heroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbiKolokv/Heroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vezbiKolokv/ListaOdListi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbiKolokv/ListaOdListi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +148,8 @@
       <workItem from="1669057977074" duration="598000" />
       <workItem from="1669116831773" duration="698000" />
       <workItem from="1669133715649" duration="5085000" />
-      <workItem from="1669141143487" duration="1801000" />
+      <workItem from="1669141143487" duration="1852000" />
+      <workItem from="1669212004909" duration="6283000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1663439422358</created>
@@ -278,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667845680742</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add kolokviumski, lab5">
+      <created>1669142984175</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1669142984175</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +308,7 @@
     <MESSAGE value="lab3 update1" />
     <MESSAGE value="add aud1" />
     <MESSAGE value="DLLVojska fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="DLLVojska fix" />
+    <MESSAGE value="add kolokviumski, lab5" />
+    <option name="LAST_COMMIT_MESSAGE" value="add kolokviumski, lab5" />
   </component>
 </project>
