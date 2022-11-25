@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="lab1 update">
-      <change afterPath="$PROJECT_DIR$/src/labs/lab2/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/lab2/ArrayMeanValue.java" afterDir="false" />
+    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="add lab2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/lab1/PushZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab1/PushZero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +91,8 @@
       <workItem from="1666776363436" duration="2242000" />
       <workItem from="1666780693844" duration="66000" />
       <workItem from="1666789491839" duration="269000" />
-      <workItem from="1666806655527" duration="3552000" />
+      <workItem from="1666806655527" duration="3584000" />
+      <workItem from="1667509450175" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1663439422358</created>
@@ -138,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666789756303</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add lab2">
+      <created>1666810255796</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666810255796</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +167,7 @@
     <MESSAGE value="aud0 update1" />
     <MESSAGE value="lab1 commit" />
     <MESSAGE value="lab1 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab1 update" />
+    <MESSAGE value="add lab2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lab2" />
   </component>
 </project>
