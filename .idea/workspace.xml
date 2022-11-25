@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="add kolokviumski">
-      <change afterPath="$PROJECT_DIR$/src/vezbiKolokv/Forum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kolokviumski/increasingDecreasingOrder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kolokviumski/removeDupes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbiKolokv/IOSolutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbiKolokv/IOSolutions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kolokviumski/ListaOdListi/ListaOdListi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kolokviumski/ListaOdListi/ListaOdListi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,5 +319,56 @@
     <MESSAGE value="add kolokviumski, lab5" />
     <MESSAGE value="add kolokviumski" />
     <option name="LAST_COMMIT_MESSAGE" value="add kolokviumski" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kolokviumski/removeDupes/Main.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kolokviumski/removeDupes/Main.java</url>
+          <line>170</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kolokviumski/removeDupes/Main.java</url>
+          <line>174</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kolokviumski/removeDupes/Main.java</url>
+          <line>172</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kolokviumski/removeDupes/Main.java</url>
+          <line>175</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kolokviumski/removeDupes/Main.java</url>
+          <line>176</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kolokviumski/removeDupes/Main.java</url>
+          <line>179</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kolokviumski/removeDupes/Main.java</url>
+          <line>181</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kolokviumski/removeDupes/Main.java</url>
+          <line>173</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
