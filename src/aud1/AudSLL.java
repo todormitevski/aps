@@ -1,15 +1,15 @@
-package vezbi;
+package aud1;
 
-public class SLL {
-    private SLLNode first;
+public class AudSLL<E extends Comparable<E>> {
+    private AudSLLNode first;
 
-    public SLL() {
+    public AudSLL() {
         this.first = null;
     }
 
     public void printNodes(){
         System.out.println("The nodes are: ");
-        for (SLLNode tmp=first;tmp!=null;tmp=tmp.succ){
+        for (AudSLLNode tmp=first;tmp!=null;tmp=tmp.succ){
             if(tmp.succ==null){
                 System.out.println(tmp.element);
                 break;
@@ -20,15 +20,15 @@ public class SLL {
     }
 
     public void insertFirst(Object o){
-        SLLNode nov=new SLLNode(o, null);
+        AudSLLNode nov=new AudSLLNode(o, null);
         nov.succ=first;
         first=nov;
     }
 
     public void insertLast(Object o){
         if (first!=null) {
-            SLLNode last=new SLLNode(o,null);
-            SLLNode tmp=first;
+            AudSLLNode last=new AudSLLNode(o,null);
+            AudSLLNode tmp=first;
             while(tmp.succ!=null){
                 tmp=tmp.succ;
             }
@@ -38,13 +38,13 @@ public class SLL {
         }
     }
 
-    public void insert(Object o, SLLNode posle) {
+    public void insert(Object o, AudSLLNode posle) {
         // Ash->Androxus
         //  Ash - Asim - Androxus
         // Asim->null
         // Asim -> Androxus
         // Ash -> Asim
-        SLLNode ins = new SLLNode(o, null);
+        AudSLLNode ins = new AudSLLNode(o, null);
         if(posle == null) {
             ins.succ = first;
             first = ins;
@@ -54,8 +54,8 @@ public class SLL {
         }
     }
 
-    public SLLNode find(Object o){
-        for(SLLNode curr=first; curr!=null; curr=curr.succ){
+    public AudSLLNode find(Object o){
+        for(AudSLLNode curr=first; curr!=null; curr=curr.succ){
             if(o.equals(curr.element)){
                 return curr;
             }
@@ -65,14 +65,14 @@ public class SLL {
 
     public int size(){
         int num=0;
-        for(SLLNode curr=first; curr!=null;curr=curr.succ){
+        for(AudSLLNode curr=first; curr!=null;curr=curr.succ){
             num++;
         }
         return num;
     }
 
     public void deleteNode(Object o){
-        SLLNode tmp=first;
+        AudSLLNode tmp=first;
         while(tmp.succ!=null){
             if(tmp.succ.equals(o)){
                 tmp.succ=tmp.succ.succ;
@@ -81,10 +81,10 @@ public class SLL {
         }
     }
 
-    public void mirrorList(SLL list){
-        SLLNode current=first;
-        SLLNode tmp=null; //pomoshen
-        SLLNode next;
+    public void mirrorList(vezbi.SLL list){
+        AudSLLNode current=first;
+        AudSLLNode tmp=null; //pomoshen
+        AudSLLNode next;
 
         while(current!=null){
             next=current.succ; //current:1, next:2
@@ -96,16 +96,16 @@ public class SLL {
     }
 
     public static void main(String[] args) {
-        SLL leagueChamps=new SLL();
-//        SLLNode vtoro=new SLLNode("Katarina", new SLLNode("Pyke", null));
-//        SLLNode prvo=new SLLNode("Jhin", null);
+        AudSLL leagueChamps=new AudSLL();
+//        AudSLLNode vtoro=new AudSLLNode("Katarina", new AudSLLNode("Pyke", null));
+//        AudSLLNode prvo=new AudSLLNode("Jhin", null);
         leagueChamps.insertFirst("Pyke");
         leagueChamps.insertFirst("Asim");
         leagueChamps.insertFirst("Kai'Sa");
         leagueChamps.insertFirst("K'Sante");
         leagueChamps.printNodes();
 
-        SLLNode ins=leagueChamps.find("Asim");
+        AudSLLNode ins=leagueChamps.find("Asim");
         leagueChamps.insert("Androxus", ins);
 
         leagueChamps.printNodes();
@@ -126,7 +126,7 @@ public class SLL {
         System.out.println();
 
         System.out.println("-----TESTING MIRROR-----");
-        SLL numList=new SLL();
+        vezbi.SLL numList=new vezbi.SLL();
         numList.insertLast(1);
         numList.insertLast(2);
         numList.insertLast(3);
@@ -139,5 +139,9 @@ public class SLL {
         System.out.println("LIST AFTER MIRROR");
         numList.mirrorList(numList);
         numList.printNodes();
+    }
+
+    public AudSLLNode<E> getFirst() {
+        return first;
     }
 }

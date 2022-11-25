@@ -1,4 +1,4 @@
-package labs.lab2;
+package vezbi.labReRun.ClosestToAverage;
 
 @SuppressWarnings("unchecked")
 class Array<E> {
