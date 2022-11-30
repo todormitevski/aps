@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="add kolokviumski">
-      <change afterPath="$PROJECT_DIR$/src/vezbiKolokv/Forum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbiKolokv/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbiKolokv/IOSolutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbiKolokv/IOSolutions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vezbiKolokv/Forum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbiKolokv/Forum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <recent name="aud1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DLL">
     <configuration name="DLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="vezbi.DLL" />
       <module name="aps" />
@@ -148,7 +148,9 @@
       <workItem from="1669116831773" duration="698000" />
       <workItem from="1669133715649" duration="5085000" />
       <workItem from="1669141143487" duration="1852000" />
-      <workItem from="1669212004909" duration="9472000" />
+      <workItem from="1669212004909" duration="10598000" />
+      <workItem from="1669225896112" duration="561000" />
+      <workItem from="1669636664817" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1663439422358</created>
@@ -283,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669221603497</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add kolokviumski">
+      <created>1669224903476</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1669224903476</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
