@@ -1,4 +1,4 @@
-//package kolokviumski.ListaOdListi;
+//package kolokviumski.increasingDecreasingOrder;
 //
 //import java.util.Scanner;
 //
@@ -14,9 +14,10 @@
 //
 //    @Override
 //    public String toString() {
-//        return "<-" + element.toString() + "->";
+//        return element.toString();
 //    }
 //}
+//
 //
 //class DLL<E> {
 //    private DLLNode<E> first, last;
@@ -47,6 +48,22 @@
 //
 //    }
 //
+//    public DLLNode<E> find(E o) {
+//        if (first != null) {
+//            DLLNode<E> tmp = first;
+//            while (tmp.element != o && tmp.succ != null)
+//                tmp = tmp.succ;
+//            if (tmp.element == o) {
+//                return tmp;
+//            } else {
+//                System.out.println("Elementot ne postoi vo listata");
+//            }
+//        } else {
+//            System.out.println("Listata e prazna");
+//        }
+//        return first;
+//    }
+//
 //    public void insertFirst(E o) {
 //        DLLNode<E> ins = new DLLNode<E>(o, null, first);
 //        if (first == null)
@@ -67,7 +84,7 @@
 //    }
 //
 //    public void insertAfter(E o, DLLNode<E> after) {
-//        if (after == last) {
+//        if(after==last){
 //            insertLast(o);
 //            return;
 //        }
@@ -77,7 +94,7 @@
 //    }
 //
 //    public void insertBefore(E o, DLLNode<E> before) {
-//        if (before == first) {
+//        if(before == first){
 //            insertFirst(o);
 //            return;
 //        }
@@ -113,6 +130,21 @@
 //        return null;
 //    }
 //
+//    public E delete(DLLNode<E> node) {
+//        if(node==first){
+//            deleteFirst();
+//            return node.element;
+//        }
+//        if(node==last){
+//            deleteLast();
+//            return node.element;
+//        }
+//        node.pred.succ = node.succ;
+//        node.succ.pred = node.pred;
+//        return node.element;
+//
+//    }
+//
 //    @Override
 //    public String toString() {
 //        String ret = new String();
@@ -121,6 +153,20 @@
 //            ret += tmp + "<->";
 //            while (tmp.succ != null) {
 //                tmp = tmp.succ;
+//                ret += tmp + "<->";
+//            }
+//        } else
+//            ret = "Prazna lista!!!";
+//        return ret;
+//    }
+//
+//    public String toStringR() {
+//        String ret = new String();
+//        if (last != null) {
+//            DLLNode<E> tmp = last;
+//            ret += tmp + "<->";
+//            while (tmp.pred != null) {
+//                tmp = tmp.pred;
 //                ret += tmp + "<->";
 //            }
 //        } else
@@ -138,88 +184,59 @@
 //    }
 //
 //}
+//public class Main
+//{
+//    public static DLL<Integer> spojListi(DLL<Integer> lista1,DLL<Integer> lista2)
+//    {
+//        DLLNode<Integer> list1 = lista1.getLast();
+//        DLLNode<Integer> list2 = lista2.getFirst();
+//        DLL<Integer> newList = new DLL<>();
 //
-//public class ListaOdListi {
-//    //od risot
-////        public static long findMagicNumber(DLL<DLL<Integer>> list) {
-////            //Vashiot kod tuka...
-////            //Vashiot kod tuka.. ????????????????????????????????????O.
-////            int sum=0;
-////            int i =0;
-////            long proizvod=1;
-////            int s[] = new int[list.length()];
-////            DLLNode<DLL<Integer>> current = list.getFirst();
-////            while(current != null){
-////                DLL<Integer> tmp = current.element; //gets first line
-////                DLLNode<Integer> tmp2 = tmp.getFirst(); //gets first element of first line (or nth)
-////                while(tmp2 != null){
-////                    sum+=tmp2.element;
-////                    tmp2 = tmp2.succ;
-////                }
-////                s[i] = sum;
-////                i++;
-////                sum = 0;
-////                current = current.succ;
-////            }
-////            for (int j = 0; j < s.length; j++) {
-////                proizvod*=s[j];
-////            }
-////            return proizvod;
-////        }
-//
-//    public static long findMagicNumber(DLL<DLL<Integer>> list) {
-//        //Vashiot kod tuka...
-////        Input	     Result
-////        4          2352000
-////        4
-////        6 13 16 7
-////        7 23 9 11
-////        8 0 8 19
-////        6 6 9 11
-//
-//        DLLNode<DLL<Integer>> lista = list.getFirst();
-//
-//        int sum = 0, sumArray[] = new int[list.length()], i = 0;
-//        long product = 1;
-//
-//        while(lista != null){
-//
-//            DLL<Integer> currentLine = lista.element;
-//            DLLNode<Integer> currentElem = currentLine.getFirst();
-//
-//            while(currentElem != null){
-//
-//                sum += currentElem.element;
-//
-//                currentElem = currentElem.succ;
+//        while(list1 != null && list2 != null){
+//            if(list1.element > list2.element){
+//                newList.insertLast(list1.element);
+//                list1 = list1.pred;
+//            } else if(list1.element < list2.element){
+//                newList.insertLast(list2.element);
+//                list2 = list2.succ;
+//            } else{ //if they are ==
+//                newList.insertLast(list1.element);
+//                newList.insertLast(list2.element);
+//                list1 = list1.pred;
+//                list2 = list2.succ;
 //            }
-//
-//            sumArray[i] = sum; i++; sum = 0;
-//
-//            lista = lista.succ;
 //        }
 //
-//        for(int j=0;j<i;j++){
-//            product *= sumArray[j];
+//        if(list1 == null){
+//            while(list2 != null){
+//                newList.insertLast(list2.element);
+//                list2 = list2.succ;
+//            }
+//        } else{
+//            while(list1 != null){
+//                newList.insertLast(list1.element);
+//                list1 = list1.pred;
+//            }
 //        }
 //
-//        return product;
+//        return newList;
 //    }
-//
 //    public static void main(String[] args) {
-//        Scanner in = new Scanner(System.in);
-//        int n = in.nextInt();
-//        int m = in.nextInt();
-//        DLL<DLL<Integer>> list = new DLL<DLL<Integer>>();
-//        for (int i = 0; i < n; i++) {
-//            DLL<Integer> tmp = new DLL<Integer>();
-//            for (int j = 0; j < m; j++) {
-//                tmp.insertLast(in.nextInt());
-//            }
-//            list.insertLast(tmp);
+//        Scanner input = new Scanner(System.in);
+//        DLL<Integer> lista1 = new DLL();
+//        DLL<Integer> lista2 = new DLL();
+//        int N = input.nextInt();
+//        for(int i=0;i<N;i++)
+//        {
+//            lista1.insertLast(input.nextInt());
 //        }
-//        in.close();
-//        System.out.println(findMagicNumber(list));
-//    }
+//        int M = input.nextInt();
+//        for(int i=0;i<M;i++)
+//        {
+//            lista2.insertLast(input.nextInt());
+//        }
 //
+//        DLL<Integer> result = spojListi(lista1,lista2);
+//        System.out.println(result);
+//    }
 //}
