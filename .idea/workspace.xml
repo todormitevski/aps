@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="add kolokviumski">
-      <change afterPath="$PROJECT_DIR$/src/vezbiKolokv/Main.java" afterDir="false" />
+    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="add lab7">
+      <change afterPath="$PROJECT_DIR$/src/labs/lab9/HeightInTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab9/InorderNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab9/MarketSale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top75/RoutingHashJava.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbiKolokv/Forum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbiKolokv/Forum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top75/Apteka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top75/Apteka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top75/Lozinki.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top75/Lozinki.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top75/Preveduvac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top75/Preveduvac.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +156,12 @@
       <workItem from="1669212004909" duration="10598000" />
       <workItem from="1669225896112" duration="561000" />
       <workItem from="1669636664817" duration="15000" />
+      <workItem from="1672677364259" duration="813000" />
+      <workItem from="1672700619222" duration="1845000" />
+      <workItem from="1672752654806" duration="14172000" />
+      <workItem from="1672772399082" duration="37000" />
+      <workItem from="1673024529528" duration="1619000" />
+      <workItem from="1673049434586" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1663439422358</created>
@@ -292,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669224903476</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="add lab7">
+      <created>1671721171305</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1671721171305</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,6 +343,7 @@
     <MESSAGE value="DLLVojska fix" />
     <MESSAGE value="add kolokviumski, lab5" />
     <MESSAGE value="add kolokviumski" />
-    <option name="LAST_COMMIT_MESSAGE" value="add kolokviumski" />
+    <MESSAGE value="add lab7" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lab7" />
   </component>
 </project>
