@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="add lab7">
-      <change afterPath="$PROJECT_DIR$/src/labs/lab9/HeightInTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/lab9/InorderNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/lab9/MarketSale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/top75/RoutingHashJava.java" afterDir="false" />
+    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="add aud">
+      <change afterPath="$PROJECT_DIR$/src/labs/lab10/GraphMaker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top75/Apteka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top75/Apteka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top75/Lozinki.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top75/Lozinki.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top75/Preveduvac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top75/Preveduvac.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,6 +156,9 @@
       <workItem from="1672772399082" duration="37000" />
       <workItem from="1673024529528" duration="1619000" />
       <workItem from="1673049434586" duration="597000" />
+      <workItem from="1674425159677" duration="33000" />
+      <workItem from="1674994910875" duration="13000" />
+      <workItem from="1674995146982" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1663439422358</created>
@@ -310,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671721171305</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add aud">
+      <created>1674425184063</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1674425184063</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,6 +348,7 @@
     <MESSAGE value="add kolokviumski, lab5" />
     <MESSAGE value="add kolokviumski" />
     <MESSAGE value="add lab7" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lab7" />
+    <MESSAGE value="add aud" />
+    <option name="LAST_COMMIT_MESSAGE" value="add aud" />
   </component>
 </project>
