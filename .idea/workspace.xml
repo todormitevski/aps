@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="add aud">
-      <change afterPath="$PROJECT_DIR$/src/labs/lab10/GraphMaker.java" afterDir="false" />
+    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="add labs">
+      <change afterPath="$PROJECT_DIR$/src/ispitni/birthdays/Birthdays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/clients/Clients.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/devQaTeams/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/dialect/Dialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/englishAutoCorrect/englishAutoCorrect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/englishAutoCorrect/englishAutoCorrect1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/financeHealth/FinanceHealth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/CBHT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/CBHTTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/ChemicalElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/ChemicalElementDH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/DoublyHashable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/DoublyHashedOBHT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/DoublyHashedOBHTTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/MapEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/OBHT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/OBHTTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/SLLNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/TestHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/TestHashtable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/passwords/Passwords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/pharmacy/Pharmacy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/pm10Particles/PM10Particles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/pm10Particles/PM10Particles1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/prvKolDLL1/PalindromeDLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/prvKolDLL2/ListaOdListi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/labs/lab7/Routing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab7/Routing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top75/RoutingHashJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top75/RoutingHashJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top75/prva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top75/prva.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top75/vtora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top75/vtora.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,13 +53,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Eu8CsqMbv0X4t4nDrbuBbTwFTK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -61,13 +93,26 @@
       <recent name="aud1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DLL">
+  <component name="RunManager">
     <configuration name="DLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="vezbi.DLL" />
       <module name="aps" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="vezbi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dialect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ispitni.dialect.Dialect" />
+      <module name="aps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ispitni.dialect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,6 +135,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dialect" />
         <item itemvalue="Application.DLL" />
         <item itemvalue="Application.SLL" />
       </list>
@@ -158,7 +204,10 @@
       <workItem from="1673049434586" duration="597000" />
       <workItem from="1674425159677" duration="33000" />
       <workItem from="1674994910875" duration="13000" />
-      <workItem from="1674995146982" duration="38000" />
+      <workItem from="1674995146982" duration="76000" />
+      <workItem from="1675172633803" duration="13763000" />
+      <workItem from="1675254577298" duration="14028000" />
+      <workItem from="1675337658099" duration="18292000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1663439422358</created>
@@ -314,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674425184063</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add labs">
+      <created>1674995214005</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1674995214005</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,6 +388,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="add queues, lists, stacks, 2darrays" />
     <MESSAGE value="aud0 update" />
@@ -349,6 +406,7 @@
     <MESSAGE value="add kolokviumski" />
     <MESSAGE value="add lab7" />
     <MESSAGE value="add aud" />
-    <option name="LAST_COMMIT_MESSAGE" value="add aud" />
+    <MESSAGE value="add labs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add labs" />
   </component>
 </project>

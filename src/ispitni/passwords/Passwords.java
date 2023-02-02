@@ -1,8 +1,48 @@
-//package top75;
+//package ispitni.passwords;
 //
 //import java.io.BufferedReader;
 //import java.io.IOException;
 //import java.io.InputStreamReader;
+//
+//class SLLNode<E> {
+//    protected E element;
+//    protected SLLNode<E> succ;
+//
+//    public SLLNode(E elem, SLLNode<E> succ) {
+//        this.element = elem;
+//        this.succ = succ;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return element.toString();
+//    }
+//}
+//
+//
+//class MapEntry<K extends Comparable<K>,E> implements Comparable<K> {
+//
+//    // Each MapEntry object is a pair consisting of a key (a Comparable
+//    // object) and a value (an arbitrary object).
+//    K key;
+//    E value;
+//
+//    public MapEntry (K key, E val) {
+//        this.key = key;
+//        this.value = val;
+//    }
+//
+//    public int compareTo (K that) {
+//        // Compare this map entry to that map entry.
+//        @SuppressWarnings("unchecked")
+//        MapEntry<K,E> other = (MapEntry<K,E>) that;
+//        return this.key.compareTo(other.key);
+//    }
+//
+//    public String toString () {
+//        return "<" + key + "," + value + ">";
+//    }
+//}
 //
 //class CBHT<K extends Comparable<K>, E> {
 //
@@ -72,87 +112,39 @@
 //        }
 //        return temp;
 //    }
-//
-//}
-//class MapEntry<K extends Comparable<K>,E> implements Comparable<K> {
-//
-//    // Each MapEntry object is a pair consisting of a key (a Comparable
-//    // object) and a value (an arbitrary object).
-//    K key;
-//    E value;
-//
-//    public MapEntry (K key, E val) {
-//        this.key = key;
-//        this.value = val;
-//    }
-//
-//    public int compareTo (K that) {
-//        // Compare this map entry to that map entry.
-//        @SuppressWarnings("unchecked")
-//        MapEntry<K,E> other = (MapEntry<K,E>) that;
-//        return this.key.compareTo(other.key);
-//    }
-//
-//    public String toString () {
-//        return "<" + key + "," + value + ">";
-//    }
-//}
-//class SLLNode<E> {
-//    protected E element;
-//    protected SLLNode<E> succ;
-//
-//    public SLLNode(E elem, SLLNode<E> succ) {
-//        this.element = elem;
-//        this.succ = succ;
-//    }
-//
-//    @Override
-//    public String toString() {
-//        return element.toString();
-//    }
 //}
 //
-//public class RoutingHashJava {
-//    public static void main(String[] args) throws IOException {
+//public class Passwords{
+//    public static void main (String[] args) throws IOException {
 //        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //        int n = Integer.parseInt(br.readLine());
 //
-//        CBHT<String,String[]> cbht = new CBHT<>(n*2);
-//        for(int i=0;i<n;i++){
-//            String key = br.readLine(); //interface
-//            String[] values = br.readLine().split(","); //routes
-//            cbht.insert(key,values);
-//        }
-//
-//        n = Integer.parseInt(br.readLine());
+//        CBHT<String,String> cbht = new CBHT<>(n*2);
 //        for(int i=0;i<n;i++){
 //            String line = br.readLine();
-//            if(cbht.search(line) == null){
-//                System.out.println("ne postoi");
-//                br.readLine(); //skips the values?
-//                continue;
+//            String[] parts = line.split(" ");
+//            cbht.insert(parts[0],parts[1]);
+//        }
+//
+//        while(true){
+//            String line = br.readLine();
+//            if(line.equals("KRAJ")){
+//                break;
 //            }
 //
-//            String value = br.readLine();
-//            boolean found = false;
-//
-//            for(String s: cbht.search(line).element.value){
-//                String[] split1 = s.split("\\.");
-//                String[] split2 = value.split("\\.");
-//
-//                if(split1[0].equals(split2[0])
-//                && split1[1].equals(split2[1])
-//                && split1[2].equals(split2[2])){
-//                    found = true;
-//                    System.out.println("postoi");
+//            String[] parts = line.split(" ");
+//            SLLNode<MapEntry<String, String>> curr = cbht.search(parts[0]);
+//            //System.out.println(curr);
+//            if(curr != null){
+//                if(parts[1].equals(curr.element.value)){
+//                    System.out.println("Najaven");
 //                    break;
+//                } else{
+//                    System.out.println("Nenajaven");
 //                }
+//            } else{
+//                System.out.println("Nenajaven");
 //            }
-//
-//            if(!found){
-//                System.out.println("ne postoi");
-//            }
-//
 //        }
 //    }
 //}

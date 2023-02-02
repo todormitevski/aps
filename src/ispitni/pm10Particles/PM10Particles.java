@@ -1,8 +1,50 @@
-//package top75;
+//package ispitni.pm10Particles;
 //
 //import java.io.BufferedReader;
 //import java.io.IOException;
 //import java.io.InputStreamReader;
+//import java.text.DecimalFormat;
+//import java.util.HashMap;
+//
+//class SLLNode<E> {
+//    protected E element;
+//    protected SLLNode<E> succ;
+//
+//    public SLLNode(E elem, SLLNode<E> succ) {
+//        this.element = elem;
+//        this.succ = succ;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return element.toString();
+//    }
+//}
+//
+//class MapEntry<K extends Comparable<K>,E> implements Comparable<K> {
+//
+//    // Each MapEntry object is a pair consisting of a key (a Comparable
+//    // object) and a value (an arbitrary object).
+//    K key;
+//    E value;
+//
+//    public MapEntry (K key, E val) {
+//        this.key = key;
+//        this.value = val;
+//    }
+//
+//    public int compareTo (K that) {
+//        // Compare this map entry to that map entry.
+//        @SuppressWarnings("unchecked")
+//        MapEntry<K,E> other = (MapEntry<K,E>) that;
+//        return this.key.compareTo(other.key);
+//    }
+//
+//    public String toString () {
+//        return "<" + key + "," + value + ">";
+//    }
+//}
+//
 //
 //class CBHT<K extends Comparable<K>, E> {
 //
@@ -74,85 +116,59 @@
 //    }
 //
 //}
-//class MapEntry<K extends Comparable<K>,E> implements Comparable<K> {
 //
-//    // Each MapEntry object is a pair consisting of a key (a Comparable
-//    // object) and a value (an arbitrary object).
-//    K key;
-//    E value;
+//public class PM10Particles {
 //
-//    public MapEntry (K key, E val) {
-//        this.key = key;
-//        this.value = val;
-//    }
+//    //inputs
+//    //    8
+//    //    Centar 319.61
+//    //    Karposh 296.74
+//    //    Centar 531.98
+//    //    Karposh 316.44
+//    //    GaziBaba 384.05
+//    //    GaziBaba 319.3
+//    //    Karposh 393.18
+//    //    GaziBaba 326.42
+//    //    Karposh
 //
-//    public int compareTo (K that) {
-//        // Compare this map entry to that map entry.
-//        @SuppressWarnings("unchecked")
-//        MapEntry<K,E> other = (MapEntry<K,E>) that;
-//        return this.key.compareTo(other.key);
-//    }
-//
-//    public String toString () {
-//        return "<" + key + "," + value + ">";
-//    }
-//}
-//class SLLNode<E> {
-//    protected E element;
-//    protected SLLNode<E> succ;
-//
-//    public SLLNode(E elem, SLLNode<E> succ) {
-//        this.element = elem;
-//        this.succ = succ;
-//    }
-//
-//    @Override
-//    public String toString() {
-//        return element.toString();
-//    }
-//}
-//
-//public class RoutingHashJava {
 //    public static void main(String[] args) throws IOException {
 //        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //        int n = Integer.parseInt(br.readLine());
 //
-//        CBHT<String,String[]> cbht = new CBHT<>(n*2);
-//        for(int i=0;i<n;i++){
-//            String key = br.readLine(); //interface
-//            String[] values = br.readLine().split(","); //routes
-//            cbht.insert(key,values);
-//        }
+//        CBHT<String,Double> table = new CBHT<>(n*2);
+//        CBHT<String,Integer> tableCount = new CBHT<>(n*2);
 //
-//        n = Integer.parseInt(br.readLine());
 //        for(int i=0;i<n;i++){
 //            String line = br.readLine();
-//            if(cbht.search(line) == null){
-//                System.out.println("ne postoi");
-//                br.readLine(); //skips the values?
-//                continue;
+//            String[] parts = line.split(" ");
+//            String city = parts[0];
+//            double airQuality = Double.parseDouble(parts[1]);
+//
+//            //putIfNotAbsent
+//            if(table.search(city) == null){
+//                table.insert(city,airQuality);
+//            } else{
+//                Double value = table.search(city).element.value;
+//                table.insert(city,airQuality+value);
 //            }
 //
-//            String value = br.readLine();
-//            boolean found = false;
-//
-//            for(String s: cbht.search(line).element.value){
-//                String[] split1 = s.split("\\.");
-//                String[] split2 = value.split("\\.");
-//
-//                if(split1[0].equals(split2[0])
-//                && split1[1].equals(split2[1])
-//                && split1[2].equals(split2[2])){
-//                    found = true;
-//                    System.out.println("postoi");
-//                    break;
-//                }
+//            //putIfAbsent
+//            if(tableCount.search(city) == null){
+//                tableCount.insert(city,1);
+//            } else{
+//                Integer count = tableCount.search(city).element.value;
+//                tableCount.insert(city,++count);
 //            }
-//
-//            if(!found){
-//                System.out.println("ne postoi");
-//            }
-//
 //        }
+//
+//        String city = br.readLine();
+//
+//        //calculation
+//        Double sum = table.search(city).element.value;
+//        Integer count = tableCount.search(city).element.value;
+//
+//        //DecimalFormat df = new DecimalFormat("######.##");
+//        Double result = sum / count;
+//        System.out.printf("%.2f", result);
 //    }
 //}
