@@ -1,38 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="add labs">
-      <change afterPath="$PROJECT_DIR$/src/ispitni/birthdays/Birthdays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/clients/Clients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/devQaTeams/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/dialect/Dialect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/englishAutoCorrect/englishAutoCorrect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/englishAutoCorrect/englishAutoCorrect1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/financeHealth/FinanceHealth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/CBHT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/CBHTTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/ChemicalElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/ChemicalElementDH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/DoublyHashable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/DoublyHashedOBHT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/DoublyHashedOBHTTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/MapEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/OBHT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/OBHTTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/SLLNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/TestHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/TestHashtable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/passwords/Passwords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/pharmacy/Pharmacy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/pm10Particles/PM10Particles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/pm10Particles/PM10Particles1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/prvKolDLL1/PalindromeDLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/prvKolDLL2/ListaOdListi.java" afterDir="false" />
+    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="add ispitni hash/link">
+      <change afterPath="$PROJECT_DIR$/src/ispitni/Risk/RiskFactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/athletes/Athletes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/athletes/athletes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/combineListsDescendingAscending/CombineListsDescendingAscending.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/company/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/dllSorted/DLLSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/domainsVisited/DomainsVisited.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/kmb/Kmb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/makeListAddingByThree/MakeListAddingByThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/mirroredDLL/MirroredDLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/prvKol2022/prvKol2022.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/removeDuplicates/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/removeLastAppearance/RemoveLastAppearance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/translator/Translator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kolokviumski/removeDupes/RemoveDupes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/lab7/Routing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab7/Routing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top75/RoutingHashJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top75/RoutingHashJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top75/prva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top75/prva.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top75/vtora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top75/vtora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ispitni/birthdays/Birthdays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ispitni/birthdays/Birthdays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kolokviumski/removeDupes/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +194,15 @@
       <workItem from="1674995146982" duration="76000" />
       <workItem from="1675172633803" duration="13763000" />
       <workItem from="1675254577298" duration="14028000" />
-      <workItem from="1675337658099" duration="18292000" />
+      <workItem from="1675337658099" duration="18348000" />
+      <workItem from="1675363426557" duration="2000" />
+      <workItem from="1675371743851" duration="107000" />
+      <workItem from="1675427754924" duration="7884000" />
+      <workItem from="1675456849276" duration="5684000" />
+      <workItem from="1675515295533" duration="12080000" />
+      <workItem from="1675603452381" duration="15292000" />
+      <workItem from="1675690396168" duration="10678000" />
+      <workItem from="1675720446089" duration="2877000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1663439422358</created>
@@ -370,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674995214005</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add ispitni hash/link">
+      <created>1675363347124</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1675363347124</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,6 +409,7 @@
     <MESSAGE value="add lab7" />
     <MESSAGE value="add aud" />
     <MESSAGE value="add labs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add labs" />
+    <MESSAGE value="add ispitni hash/link" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ispitni hash/link" />
   </component>
 </project>
