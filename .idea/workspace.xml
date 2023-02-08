@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="add ispitni hash/link">
-      <change afterPath="$PROJECT_DIR$/src/ispitni/Risk/RiskFactor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/athletes/Athletes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/athletes/athletes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/combineListsDescendingAscending/CombineListsDescendingAscending.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/company/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/dllSorted/DLLSorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/domainsVisited/DomainsVisited.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/kmb/Kmb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/makeListAddingByThree/MakeListAddingByThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/mirroredDLL/MirroredDLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/prvKol2022/prvKol2022.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/removeDuplicates/RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/removeLastAppearance/RemoveLastAppearance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/translator/Translator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kolokviumski/removeDupes/RemoveDupes.java" afterDir="false" />
+    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="add ispitni">
+      <change afterPath="$PROJECT_DIR$/src/ispitni/dialect/Kumanovski.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/pharmacy/Pharmacy1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/santa/ClausSmiriSe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ispitni/birthdays/Birthdays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ispitni/birthdays/Birthdays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kolokviumski/removeDupes/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +188,9 @@
       <workItem from="1675515295533" duration="12080000" />
       <workItem from="1675603452381" duration="15292000" />
       <workItem from="1675690396168" duration="10678000" />
-      <workItem from="1675720446089" duration="2877000" />
+      <workItem from="1675720446089" duration="2902000" />
+      <workItem from="1675774672969" duration="6219000" />
+      <workItem from="1675788248440" duration="6670000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1663439422358</created>
@@ -372,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675363347124</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add ispitni">
+      <created>1675724074734</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1675724074734</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,6 +405,7 @@
     <MESSAGE value="add aud" />
     <MESSAGE value="add labs" />
     <MESSAGE value="add ispitni hash/link" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ispitni hash/link" />
+    <MESSAGE value="add ispitni" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ispitni" />
   </component>
 </project>
