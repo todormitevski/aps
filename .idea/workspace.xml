@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="add ispitni">
-      <change afterPath="$PROJECT_DIR$/src/ispitni/dialect/Kumanovski.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/pharmacy/Pharmacy1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/santa/ClausSmiriSe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/lists/Palindrome/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/lists/ascendingDescendingDLL/ascendingDescendingDLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/lists/deleteElemFromSll/deleteElemFromSll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/lists/middleOfList/MiddleOfList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/lists/reverseSll/ReverseSll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/registryPlates/RegistryPlates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/Sp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +70,7 @@
       <recent name="aud1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Dialect">
     <configuration name="DLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="vezbi.DLL" />
       <module name="aps" />
@@ -190,7 +194,13 @@
       <workItem from="1675690396168" duration="10678000" />
       <workItem from="1675720446089" duration="2902000" />
       <workItem from="1675774672969" duration="6219000" />
-      <workItem from="1675788248440" duration="6670000" />
+      <workItem from="1675788248440" duration="8610000" />
+      <workItem from="1675820540804" duration="45000" />
+      <workItem from="1675820753651" duration="599000" />
+      <workItem from="1675857540595" duration="207000" />
+      <workItem from="1675858045184" duration="12291000" />
+      <workItem from="1675893534313" duration="3704000" />
+      <workItem from="1675904337344" duration="190000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1663439422358</created>
@@ -367,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675724074734</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add ispitni">
+      <created>1675818455752</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1675818455752</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,5 +424,91 @@
     <MESSAGE value="add ispitni hash/link" />
     <MESSAGE value="add ispitni" />
     <option name="LAST_COMMIT_MESSAGE" value="add ispitni" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/lists/Palindrome/Palindrome.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/lists/Palindrome/Palindrome.java</url>
+          <line>145</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/lists/Palindrome/Palindrome.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/lists/Palindrome/Palindrome.java</url>
+          <line>149</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/lists/Palindrome/Palindrome.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/lists/Palindrome/Palindrome.java</url>
+          <line>151</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/lists/Palindrome/Palindrome.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/lists/Palindrome/Palindrome.java</url>
+          <line>153</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/lists/Palindrome/Palindrome.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/lists/Palindrome/Palindrome.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/lists/Palindrome/Palindrome.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/lists/Palindrome/Palindrome.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/lists/Palindrome/Palindrome.java</url>
+          <line>167</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/lists/Palindrome/Palindrome.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/lists/Palindrome/Palindrome.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/lists/Palindrome/Palindrome.java</url>
+          <line>170</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
