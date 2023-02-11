@@ -2,6 +2,10 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+src/vezbi/Sp.java
+src/vezbi/Sp1.java
+src/vezbi/Sp2.java
+src/vezbi/Sp3.java
 
 ### Eclipse ###
 .apt_generated
