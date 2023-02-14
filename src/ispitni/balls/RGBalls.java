@@ -1,7 +1,10 @@
-//package vezbiKolokv;
+//package ispitni.balls;
 //
-//import java.util.Locale;
-//import java.util.Scanner;
+//import java.io.BufferedReader;
+//import java.io.IOException;
+//import java.io.InputStreamReader;
+//import java.util.ArrayList;
+//import java.util.List;
 //
 //class SLLNode<E> {
 //    protected E element;
@@ -18,12 +21,10 @@
 //    }
 //}
 //
-//
 //class SLL<E> {
 //    private SLLNode<E> first;
 //
 //    public SLL() {
-//        // Construct an empty SLL
 //        this.first = null;
 //    }
 //
@@ -51,10 +52,10 @@
 //        String ret = new String();
 //        if (first != null) {
 //            SLLNode<E> tmp = first;
-//            ret += tmp + "->";
+//            ret += tmp;
 //            while (tmp.succ != null) {
 //                tmp = tmp.succ;
-//                ret += tmp + "->";
+//                ret += " " + tmp;
 //            }
 //        } else
 //            ret = "Prazna lista!!!";
@@ -76,14 +77,12 @@
 //    }
 //
 //    public void insertBefore(E o, SLLNode<E> before) {
-//
 //        if (first != null) {
 //            SLLNode<E> tmp = first;
-//            if(first==before){
+//            if (first == before) {
 //                this.insertFirst(o);
 //                return;
 //            }
-//            //ako first!=before
 //            while (tmp.succ != before)
 //                tmp = tmp.succ;
 //            if (tmp.succ == before) {
@@ -123,7 +122,7 @@
 //    public E delete(SLLNode<E> node) {
 //        if (first != null) {
 //            SLLNode<E> tmp = first;
-//            if(first ==node){
+//            if (first == node) {
 //                return this.deleteFirst();
 //            }
 //            while (tmp.succ != node && tmp.succ.succ != null)
@@ -139,7 +138,6 @@
 //            System.out.println("Listata e prazna");
 //            return null;
 //        }
-//
 //    }
 //
 //    public SLLNode<E> getFirst() {
@@ -161,26 +159,41 @@
 //        }
 //        return first;
 //    }
-//
 //}
 //
-//public class Main
-//{
-//    public static void funkcija(SLL<Integer> lista){
-//        SLLNode<Integer> numbers = lista.getFirst();
-//
-//
-//    }
-//
-//    public static void main(String[] args) {
-//        Scanner input = new Scanner(System.in);
-//        int N = input.nextInt();
-//        SLL<Integer> lista = new SLL();
-//        for(int i = 0;i < N;i++){
-//            int broj = input.nextInt();
-//            lista.insertLast(broj);
+//public class RGBalls {
+//    public static void calcBalls(String line){
+//        String[] parts = line.split("\\s+");
+//        SLL<String> balls = new SLL<String>();
+//        for(String part : parts){
+//            balls.insertLast(part);
 //        }
-//        funkcija(lista);
-//        System.out.println(lista);
+//        SLLNode<String> tmp1 = balls.getFirst();
+//        SLLNode<String> tmp2;
+//        boolean flag = false;
+//        while(tmp1.succ != null){
+//            tmp2 = tmp1.succ;
+//            while(tmp2 != null){
+//                if(tmp1.element.charAt(0) == tmp2.element.charAt(0)
+//                && tmp1.element.charAt(1) != tmp2.element.charAt(1)){
+//                    balls.delete(tmp1);
+//                    balls.delete(tmp2);
+//                    tmp1 = balls.getFirst();
+//                    flag = true;
+//                    break;
+//                }
+//                if(flag) tmp2 = tmp2.succ;
+//            }
+//            tmp1 = tmp1.succ;
+//        }
+//        System.out.println(balls.length());
+//        System.out.println(balls);
+//    }
+//
+//    public static void main(String[] args) throws IOException {
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        String line = br.readLine();
+//        calcBalls(line);
 //    }
 //}
+//NOT WORKING

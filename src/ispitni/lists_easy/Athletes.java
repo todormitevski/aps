@@ -1,7 +1,8 @@
-//package vezbiKolokv;
+//package ispitni.lists_easy;
 //
-//import java.util.Locale;
-//import java.util.Scanner;
+//import java.io.BufferedReader;
+//import java.io.IOException;
+//import java.io.InputStreamReader;
 //
 //class SLLNode<E> {
 //    protected E element;
@@ -18,12 +19,10 @@
 //    }
 //}
 //
-//
 //class SLL<E> {
 //    private SLLNode<E> first;
 //
 //    public SLL() {
-//        // Construct an empty SLL
 //        this.first = null;
 //    }
 //
@@ -51,10 +50,10 @@
 //        String ret = new String();
 //        if (first != null) {
 //            SLLNode<E> tmp = first;
-//            ret += tmp + "->";
+//            ret += tmp;
 //            while (tmp.succ != null) {
 //                tmp = tmp.succ;
-//                ret += tmp + "->";
+//                ret += " " + tmp;
 //            }
 //        } else
 //            ret = "Prazna lista!!!";
@@ -76,14 +75,12 @@
 //    }
 //
 //    public void insertBefore(E o, SLLNode<E> before) {
-//
 //        if (first != null) {
 //            SLLNode<E> tmp = first;
-//            if(first==before){
+//            if (first == before) {
 //                this.insertFirst(o);
 //                return;
 //            }
-//            //ako first!=before
 //            while (tmp.succ != before)
 //                tmp = tmp.succ;
 //            if (tmp.succ == before) {
@@ -123,7 +120,7 @@
 //    public E delete(SLLNode<E> node) {
 //        if (first != null) {
 //            SLLNode<E> tmp = first;
-//            if(first ==node){
+//            if (first == node) {
 //                return this.deleteFirst();
 //            }
 //            while (tmp.succ != node && tmp.succ.succ != null)
@@ -139,7 +136,6 @@
 //            System.out.println("Listata e prazna");
 //            return null;
 //        }
-//
 //    }
 //
 //    public SLLNode<E> getFirst() {
@@ -161,26 +157,71 @@
 //        }
 //        return first;
 //    }
-//
 //}
 //
-//public class Main
-//{
-//    public static void funkcija(SLL<Integer> lista){
-//        SLLNode<Integer> numbers = lista.getFirst();
+//class Athlete{
+//    int id;
+//    double time;
 //
-//
+//    public Athlete(int id, double time) {
+//        this.id = id;
+//        this.time = time;
 //    }
 //
-//    public static void main(String[] args) {
-//        Scanner input = new Scanner(System.in);
-//        int N = input.nextInt();
-//        SLL<Integer> lista = new SLL();
-//        for(int i = 0;i < N;i++){
-//            int broj = input.nextInt();
-//            lista.insertLast(broj);
+//    public int getId() {
+//        return id;
+//    }
+//
+//    public double getTime() {
+//        return time;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return String.format("%d",id);
+//    }
+//}
+//
+//public class Athletes {
+//    public static void rearrangeAthletes(SLL<Athlete> lastYearWinners, SLL<Athlete> currentAthletes) {
+//        SLLNode<Athlete> lastYearTmp = lastYearWinners.getFirst();
+//        SLLNode<Athlete> currentTmp = currentAthletes.getFirst();
+//        double worstTime = 0.0;
+//        while(lastYearTmp != null){
+//            if(lastYearTmp.element.getTime() > worstTime){
+//                worstTime = lastYearTmp.element.getTime();
+//            }
+//            lastYearTmp = lastYearTmp.succ;
 //        }
-//        funkcija(lista);
-//        System.out.println(lista);
+//        while(currentTmp != null){
+//            if(currentTmp.element.getTime() > worstTime){
+//                currentAthletes.delete(currentTmp);
+//            }
+//            currentTmp = currentTmp.succ;
+//        }
+//    }
+//
+//    public static void main(String[] args) throws IOException {
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        int n = Integer.parseInt(br.readLine());
+//        int m = Integer.parseInt(br.readLine());
+//        SLL<Athlete> lastYearWinners = new SLL<Athlete>();
+//        SLL<Athlete> currentAthletes = new SLL<Athlete>();
+//        for(int i=0;i<n;i++){
+//            String[] parts = br.readLine().split("\\s+");
+//            lastYearWinners.insertLast(new Athlete(
+//                    Integer.parseInt(parts[0]),
+//                    Double.parseDouble(parts[1])
+//            ));
+//        }
+//        for(int i=0;i<m;i++){
+//            String[] parts = br.readLine().split("\\s+");
+//            currentAthletes.insertLast(new Athlete(
+//                    Integer.parseInt(parts[0]),
+//                    Double.parseDouble(parts[1])
+//            ));
+//        }
+//        rearrangeAthletes(lastYearWinners,currentAthletes);
+//        System.out.println(currentAthletes);
 //    }
 //}
