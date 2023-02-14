@@ -1,42 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="add ispitni">
-      <change afterPath="$PROJECT_DIR$/src/ispitni/balls/RGBalls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/birthdays/Birthdays1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/birthdays/OtherBirthdays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/DLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/DLLNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/SLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/lists/DLLofDLLs/DLLofDLLs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/lists/concatLists/ConcatLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/lists/connectSLLs/ConnectSLLs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/lists_WO_methods/Cakes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/lists_WO_methods/Heroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/lists_easy/Athletes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/lists_easy/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/lists_easy/FinanceHealth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/lists_easy/QaDevTeams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ispitni/pharmacy/Pharmacy2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/Sp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/Sp1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/Sp2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/Sp3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="ca906dff-e90f-4661-be90-bc5f8429a795" name="Changes" comment="add kolokviumski">
+      <change afterPath="$PROJECT_DIR$/src/ispitni/final_stretch/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ispitni/final_stretch/Tarot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineCourse/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineCourse/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aud1/AudDLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aud1/AudDLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aud1/AudDLLNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aud1/AudDLLNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aud1/AudSLLNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aud1/AudSLLNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/CBHT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/CBHT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/MapEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/MapEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/OBHT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/OBHT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/SLLNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ispitni/finkiHashingCodes/SLLNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/lab2/ArrayMeanValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab2/ArrayMeanValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/lab2/SpecialSLLJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab2/SpecialSLLJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/lab2/YuGiOh/Heroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab2/YuGiOh/Heroes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/lab3/DLLVojska.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab3/DLLVojska.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbiKolokv/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbiKolokv/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -523,6 +493,86 @@
           <url>file://$PROJECT_DIR$/src/ispitni/balls/RGBalls.java</url>
           <line>189</line>
           <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/final_stretch/Book.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/final_stretch/Book.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/final_stretch/Book.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/final_stretch/Book.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/final_stretch/Book.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/final_stretch/Book.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/final_stretch/Book.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/final_stretch/Book.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/final_stretch/Book.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/final_stretch/Book.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/final_stretch/Book.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/final_stretch/Book.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/final_stretch/Book.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/final_stretch/Book.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/final_stretch/Book.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ispitni/final_stretch/Book.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
